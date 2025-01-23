@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run Echo Command') {
             steps {
-                sh './app.sh'
+                sh './script.sh'
             }
         }
     }
